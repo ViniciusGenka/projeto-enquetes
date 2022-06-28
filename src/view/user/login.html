@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="stylesheet" type="text/css" href="/css/index.css">
+</head>
+<body>
+    <form id="login" action="http://localhost:3000/user/login" method="POST">
+        <section class="inputSection">
+            <label for="email">Email:</label>
+            <input id="email" name="email" type="email" placeholder="Type your email address here" required>
+        </section>
+        <section class="inputSection">
+            <label for="password">Password:</label>
+            <input id="password" name="password" type="text" placeholder="Type your password here" required>
+        </section>
+        <button id="submit" type="submit" form="login">Log In</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Enquete</title>
+    <link rel="stylesheet" type="text/css" href="/css/index.css">
+</head>
+<body>
+    <form id="login" action="http://localhost:3000/enquete/create" method="POST">
+        <section class="inputSection">
+            <label for="email">Title:</label>
+            <input id="title" name="title" type="text" placeholder="Type a title here" required>
+        </section>
+        <section class="inputSection">
+            <label for="password">Options:</label>
+            <input id="options" name="options" type="text" placeholder="Type the options here" required>
+        </section>
+        <button id="submit" type="submit" form="login">Create Enquete</button>
+    </form>
+</body>
+</html>
